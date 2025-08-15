@@ -27,10 +27,11 @@ public interface OrderService {
 
     OrderDto payOrder(Long id);
 
+    OrderDto cancelOrder(Long id);
+
     // 这是一个异步触发方法
     void requestTicketIssuance(Long id);
 
-    OrderDto cancleOrder(Long id);
 
 
 }
