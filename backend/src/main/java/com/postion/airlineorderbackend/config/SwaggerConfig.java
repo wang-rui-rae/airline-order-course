@@ -36,7 +36,7 @@ public class SwaggerConfig {
                                 .url("https://github.com/wang-rui-rae"))
                        )
                 .servers(java.util.Arrays.asList(
-                        new Server().url("http://localhost:8081").description("开发环境"),
+                        new Server().url("http://52.53.199.13:8080").description("开发环境"),
                         new Server().url("https://api.airline.com").description("生产环境")
                 ))
 
