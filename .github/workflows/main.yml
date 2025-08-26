@@ -3,7 +3,7 @@ name: Build, Push Docker Image, and Deploy
 on:
   push:
     branches:
-      - main
+      - rae-cicd
 
 jobs:
   build-and-deploy:
